@@ -1,6 +1,6 @@
 FROM debian:buster
 
-LABEL maintainer "opsxcq@strm.sh"
+LABEL maintainer "miguelwill@gmail.com"
 
 RUN apt-get update && \
     apt-get upgrade -y && \
