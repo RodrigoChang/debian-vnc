@@ -8,7 +8,8 @@ RUN apt-get update && \
     x11vnc \
     xvfb \
     xterm \
-    fluxbox && \
+    fluxbox \
+    curl && \
     apt-get clean
 
 # Create and configure the VNC user
