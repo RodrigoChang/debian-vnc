@@ -9,7 +9,8 @@ RUN apt-get update && \
     xvfb \
     xterm \
     fluxbox \
-    curl && \
+    curl \
+    firefox-esr && \
     apt-get clean
 
 # Create and configure the VNC user
